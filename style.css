@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Edu+SA+Beginner:wght@500&family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(230, 74, 230);
+    width: 100%;
+    font-size: 38px;
+    font-family: 'Kalam', cursiva;
+}
+
+a{
+    text-decoration: none;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+.presentacion p{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(62, 214, 224);
+    font-family: 'Borel', cursive;
+    color: rgb(172, 134, 207);
+}
+
+body{
+    background-color: rgb(117, 235, 195);
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+h1{
+    font-size: 30px;
+    color: rgb(105, 218, 233);
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(43, 214, 226);
+    font-family: 'Shadows Into Light', cursiva;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(159, 76, 236);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabajo h1{
+    width: 100%;
+    font-size: 35px;
+    padding: 10px;
+    background-color: rgb(62, 224, 216);
+    font-family: 'Handlee', cursive;
+    color: rgb(172, 134, 207);
+}
+
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 65vh;
+}
+
+h3{
+    background-color: rgb(177, 141, 211);
+    font-size: 30px;
+    font-family: 'Sansita', sans-serif;
+}
+
+.invitaciones h2{
+    font-size: 35px;
+    background-color: blueviolet;
+    font-family: 'Handlee', cursive;
+    color: rgb(226, 43, 226);
+}
+
+.invitaciones p{
+    font-size: 30px;
+    background-color: blueviolet;
+    font-family: 'Handlee', cursive;
+    color: rgb(13, 228, 199);
+}
+
+footer{
+    font-size: 30px;
+    background-color: blueviolet;
+    font-family: 'Handlee', cursive;
+    color: rgb(13, 228, 199);
+}
+
+.informacion p{
+    font-size: 30px;
+    background-color: blueviolet;
+    font-family: 'Handlee', cursive;
+    color: rgb(13, 228, 199);
+}
